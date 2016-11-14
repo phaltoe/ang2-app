@@ -14,4 +14,8 @@
 <app-property-binding [result]="10"></app-property-binding>
 
 <h4>Custom Event Binding</h4>
-<app-event-binding></app-event-binding>
+<app-event-binding (clicked)="onClicked($event)"></app-event-binding>
+
+<h3>Two-Way Binding</h3>
+<app-two-way-binding></app-two-way-binding>
+<br><br><br>
