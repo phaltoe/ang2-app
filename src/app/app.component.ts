@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Root Component!';
+  test = 'Starting Value';
+  boundValue = 1000;
+  delete = false;
 }
